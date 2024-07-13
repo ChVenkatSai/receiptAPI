@@ -1,5 +1,5 @@
 # Receipt Points Calculator API
-
+Solution for - https://github.com/fetch-rewards/receipt-processor-challenge
 ## Project Structure
 
 ```
