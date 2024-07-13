@@ -1,13 +1,15 @@
 # Receipt Points Calculator API
-Following is the project structure. 
+
+## Project Structure
+
 receiptAPI/
-├── cmd/
-│ └── receiptAPI/
-│ └── main.go
-├── internal/
-│ ├── api/
-│ │ └── handler.go
-│ ├── service/
+```├── cmd/
+```│ └── receiptAPI/
+```│ └── main.go
+```├── internal/
+```│ ├── api/
+```│ │ └── handler.go
+```│ ├── service/
 │ │ └── service.go
 │ └── storage/
 │ └── storage.go
@@ -17,13 +19,19 @@ receiptAPI/
 ├── go.mod
 └── go.sum
 
-To run the project, 
-1. Clone the repository.
-   git clone https://github.com/yourusername/projectname.git
+## Setup
+
+### To run the project:
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/ChVenkatSai/receiptAPI
    cd projectname
-2. Initialize the Go module:
+2. **Initialize the Go module:**
+   ```sh
    go mod tidy
-3. Go to folder containing main.go and run it.
+3. **Go to folder containing main.go and run it:**
+   ```sh
    cd cmd/receiptAPI
    go run main.go
 
