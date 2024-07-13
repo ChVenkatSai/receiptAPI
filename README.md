@@ -6,19 +6,19 @@
 receiptAPI/
 ├── cmd/
 │ └── receiptAPI/
-│ └── main.go
+│ │ └── main.go
 ├── internal/
 │ ├── api/
 │ │ └── handler.go
 │ ├── service/
 │ │ └── service.go
 │ └── storage/
-│ └── storage.go
+│ │ └──  storage.go
 ├── pkg/
 │ └── models/
-│ └── receipt.go
+│ │ └── receipt.go
 ├── go.mod
-└── go.sum
+├── go.sum
 ```
 
 ## Setup
