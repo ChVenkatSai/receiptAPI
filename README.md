@@ -28,7 +28,7 @@ receiptAPI/
 1. **Clone the repository:**
    ```sh
    git clone https://github.com/ChVenkatSai/receiptAPI
-   cd projectname
+   cd receiptAPI
 2. **Initialize the Go module:**
    ```sh
    go mod tidy
