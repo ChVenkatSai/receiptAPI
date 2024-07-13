@@ -27,7 +27,7 @@ receiptAPI/
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/ChVenkatSai/receiptAPI
+   git clone https://github.com/ChVenkatSai/receiptAPI.git
    cd receiptAPI
 2. **Initialize the Go module:**
    ```sh
