@@ -18,6 +18,7 @@ func NewService(s *storage.InMemoryStorage) *Service {
     return &Service{Store: s}
 }
 
+//Service to process and return id for a receipt
 func (s *Service) ProcessReceipt(receipt models.Receipt) string {
     id := s.Store.SaveReceipt(receipt)
     points := s.calculatePoints(receipt)
@@ -25,10 +26,12 @@ func (s *Service) ProcessReceipt(receipt models.Receipt) string {
     return id
 }
 
+//Service to get points
 func (s *Service) GetPoints(id string) (int, error) {
     return s.Store.GetPoints(id)
 }
 
+//Service to calculate points
 func (s *Service) calculatePoints(receipt models.Receipt) int {
     points := 0
 

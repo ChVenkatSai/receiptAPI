@@ -17,6 +17,7 @@ func NewHandler(s *service.Service) *Handler {
     return &Handler{Service: s}
 }
 
+//Processes Receipt
 func (h *Handler) ProcessReceipt(w http.ResponseWriter, r *http.Request) {
     var receipt models.Receipt
     if err := json.NewDecoder(r.Body).Decode(&receipt); err != nil {
@@ -28,6 +29,7 @@ func (h *Handler) ProcessReceipt(w http.ResponseWriter, r *http.Request) {
     json.NewEncoder(w).Encode(map[string]string{"id": id})
 }
 
+//Gets Points
 func (h *Handler) GetPoints(w http.ResponseWriter, r *http.Request) {
     vars := mux.Vars(r)
     id := vars["id"]

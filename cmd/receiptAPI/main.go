@@ -10,6 +10,7 @@ import (
     "github.com/ChVenkatSai/receiptAPI/internal/storage"
 )
 
+//Starts Server
 func main() {
     r := mux.NewRouter()
     store := storage.NewInMemoryStorage()
