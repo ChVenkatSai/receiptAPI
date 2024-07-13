@@ -2,14 +2,15 @@
 
 ## Project Structure
 
+```
 receiptAPI/
-```├── cmd/
-```│ └── receiptAPI/
-```│ └── main.go
-```├── internal/
-```│ ├── api/
-```│ │ └── handler.go
-```│ ├── service/
+├── cmd/
+│ └── receiptAPI/
+│ └── main.go
+├── internal/
+│ ├── api/
+│ │ └── handler.go
+│ ├── service/
 │ │ └── service.go
 │ └── storage/
 │ └── storage.go
@@ -18,6 +19,7 @@ receiptAPI/
 │ └── receipt.go
 ├── go.mod
 └── go.sum
+```
 
 ## Setup
 
